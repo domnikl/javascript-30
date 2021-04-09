@@ -1,8 +1,8 @@
 # JavaScript30
 
-1. [Drumkit](javascript-drumkit)
-1. [Clock](js-clock)
-1. [Playing with CSS variables and JS](playing-with-css-variables-and-js)
+1. [Drumkit](01-javascript-drumkit)
+1. [Clock](02-js-clock)
+1. [Playing with CSS variables and JS](03-playing-with-css-variables-and-js)
 
 ## See
 
