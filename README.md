@@ -4,6 +4,7 @@
 1. [Clock](02-js-clock)
 1. [Playing with CSS variables and JS](03-playing-with-css-variables-and-js)
 1. [Array Cardio Day 1](04-array-cardio-1)
+1. [Flex Panels Image Gallery](05-flex-panels-image-gallery)
 
 ## See
 
