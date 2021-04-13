@@ -7,6 +7,7 @@
 1. [Flex Panels Image Gallery](05-flex-panels-image-gallery)
 1. [Ajax Type Ahead](06-ajax-type-ahead)
 1. [Array Cardio Day 2](07-array-cardio-2)
+1. [Fun with HTML5 Canvas](08-fun-with-html5-canvas)
 
 ## See
 
