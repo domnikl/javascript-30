@@ -8,6 +8,7 @@
 1. [Ajax Type Ahead](06-ajax-type-ahead)
 1. [Array Cardio Day 2](07-array-cardio-2)
 1. [Fun with HTML5 Canvas](08-fun-with-html5-canvas)
+1. [14 Must Know Dev Tools Tricks](09-must-know-dev-tools-tricks)
 
 ## See
 
