@@ -102,7 +102,7 @@
       function checkBoxes(e) {
         if (e.shiftKey && lastChecked) {
           let from = checkboxes.indexOf(lastChecked) + 1;
-          let to = checkboxes.indexOf(e.target);
+          let to = checkboxes.indexOf(this);
 
           if (from > to) {
             [from, to] = [to + 1, from];
@@ -113,11 +113,11 @@
           }
         }
 
-        lastChecked = e.target;
+        lastChecked = this;
       }
 
       checkboxes.forEach((checkbox) =>
-        document.addEventListener("click", checkBoxes)
+        checkbox.addEventListener("click", checkBoxes)
       );
     </script>
   </body>
