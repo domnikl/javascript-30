@@ -9,6 +9,7 @@
 1. [Array Cardio Day 2](07-array-cardio-2)
 1. [Fun with HTML5 Canvas](08-fun-with-html5-canvas)
 1. [14 Must Know Dev Tools Tricks](09-must-know-dev-tools-tricks)
+1. [Hold Shift and Check Checkboxes](10-hold-shift-and-check-checkboxes)
 
 ## See
 
