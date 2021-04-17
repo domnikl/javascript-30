@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Pin Code Inputs</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Please enter your PIN</h1>
+      <div class="pin-code-inputs">
+        <input type="text" class="pin-number" maxlength="1" placeholder="0" />
+        <input type="text" class="pin-number" maxlength="1" placeholder="0" />
+        <input type="text" class="pin-number" maxlength="1" placeholder="0" />
+        <input type="text" class="pin-number" maxlength="1" placeholder="0" />
+      </div>
+    </div>
+
+    <style>
+      html {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        color: white;
+        text-shadow: 1px 1px 3px rgb(37, 37, 37);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      body {
+        background: linear-gradient(
+          45deg,
+          rgb(72, 116, 211),
+          rgb(84, 111, 169)
+        );
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      h1 {
+        text-shadow: #ccc 1px 0 10px;
+      }
+
+      .container {
+        width: 50vw;
+        text-align: center;
+      }
+
+      .pin-code-inputs {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .pin-number {
+        margin: 5px;
+        width: 0.75em;
+        font-size: 50pt;
+        border-radius: 20%;
+        border: 1px solid rgb(67, 56, 228);
+        text-align: center;
+        padding: 5px;
+        color: rgb(76, 76, 76);
+        box-shadow: inset 4px 4px 14px -8px rgba(0, 0, 0, 0.75);
+      }
+
+      .pin-number:focus {
+        outline: none;
+      }
+
+      .pin-number::placeholder {
+        color: rgb(218, 218, 218);
+      }
+    </style>
+
+    <script>
+      const inputs = new Array(...document.querySelectorAll(".pin-number"));
+
+      function enterPinNumber(e) {
+        if (isNaN(e.key)) return;
+
+        // go to next one
+        let i = inputs.indexOf(this);
+
+        if (i >= inputs.length - 1) {
+          alert("Not correct!");
+          inputs.forEach((input) => (input.value = ""));
+          inputs[0].focus();
+        } else {
+          inputs[++i].focus();
+        }
+      }
+
+      inputs.forEach((input) =>
+        input.addEventListener("keyup", enterPinNumber)
+      );
+
+      // initially, first one gets the focus
+      inputs[0].focus();
+    </script>
+  </body>
+</html>

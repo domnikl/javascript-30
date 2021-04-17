@@ -13,6 +13,10 @@
 1. [Custom HTML5 Video Player](11-custom-html5-video-player)
 1. [Key Sequence Detection](12-key-sequence-detection)
 
+## My own experiments
+
+1. [Pin Code Inputs](X01-pin-code-inputs)
+
 ## See
 
 [wesbos/JavaScript30](https://github.com/wesbos/JavaScript30) for starting files and stuff.
