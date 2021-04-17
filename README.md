@@ -11,6 +11,7 @@
 1. [14 Must Know Dev Tools Tricks](09-must-know-dev-tools-tricks)
 1. [Hold Shift and Check Checkboxes](10-hold-shift-and-check-checkboxes)
 1. [Custom HTML5 Video Player](11-custom-html5-video-player)
+1. [Key Sequence Detection](12-key-sequence-detection)
 
 ## See
 
