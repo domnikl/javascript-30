@@ -13,6 +13,7 @@
 1. [Custom HTML5 Video Player](11-custom-html5-video-player)
 1. [Key Sequence Detection](12-key-sequence-detection)
 1. [Slide in on scroll](13-slide-in-on-scroll)
+1. [Object and Arrays - Reference vs. Copy](14-object-and-arrays-reference-vs-copy)
 
 ## My own experiments
 

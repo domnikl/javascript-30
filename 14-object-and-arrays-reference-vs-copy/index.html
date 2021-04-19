@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Object and Arrays - reference vs. copy</title>
+  </head>
+  <body>
+    <script>
+      let age = 100;
+      let age2 = age;
+      console.log(age, age2);
+
+      age = 200;
+      console.log(age, age2);
+
+      let name = "Wes";
+      let name2 = name;
+      console.log(name, name2);
+
+      name = "Wesley";
+      console.log(name, name2);
+
+      // Arrays
+      const players = ["Wes", "Sarah", "Ryan", "Poppy"];
+      const team = players;
+      console.log(players, team);
+
+      team[3] = "Lux";
+      console.log(players, team);
+
+      // this creates a new array
+      const team2 = players.slice();
+
+      team2[3] = "Lux";
+      console.log(players, team2);
+
+      const team3 = [].concat(players); // new array
+      const team4 = [...players]; // or ES6 spread operator
+      const team5 = Array.from(players); // or this one
+
+      // objects
+      const person = {
+        name: "Dominik Liebler",
+        age: 80,
+      };
+
+      const captain = person; // reference
+      //captain.number = 99; // this  will change person, too
+
+      // copy instead
+      const captain2 = Object.assign({}, person, { number: 99 });
+      console.log(captain2);
+
+      // use object spread
+      const captain3 = { ...person };
+      captain3.number = 99;
+      console.log(person, captain3);
+
+      // this is only one level deep, lodash has a cloneDeep method, but think twice before using it!
+    </script>
+  </body>
+</html>
