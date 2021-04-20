@@ -14,6 +14,7 @@
 1. [Key Sequence Detection](12-key-sequence-detection)
 1. [Slide in on scroll](13-slide-in-on-scroll)
 1. [Object and Arrays - Reference vs. Copy](14-object-and-arrays-reference-vs-copy)
+1. [LocalStorage and Event Delegation](15-localstorage-and-event-delegation)
 
 ## My own experiments
 
