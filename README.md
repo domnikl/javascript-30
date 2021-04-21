@@ -15,6 +15,7 @@
 1. [Slide in on scroll](13-slide-in-on-scroll)
 1. [Object and Arrays - Reference vs. Copy](14-object-and-arrays-reference-vs-copy)
 1. [LocalStorage and Event Delegation](15-localstorage-and-event-delegation)
+1. [CSS Text Shadow Mouse Move Effect](16-css-text-shadow-mouse-move-effect)
 
 ## My own experiments
 
