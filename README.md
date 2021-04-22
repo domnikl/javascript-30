@@ -16,6 +16,7 @@
 1. [Object and Arrays - Reference vs. Copy](14-object-and-arrays-reference-vs-copy)
 1. [LocalStorage and Event Delegation](15-localstorage-and-event-delegation)
 1. [CSS Text Shadow Mouse Move Effect](16-css-text-shadow-mouse-move-effect)
+1. [Sorting Band names without articles](17-sorting-band-names-without-articles)
 
 ## My own experiments
 
