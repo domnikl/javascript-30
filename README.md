@@ -19,6 +19,7 @@
 1. [Sorting Band names without articles](17-sorting-band-names-without-articles)
 1. [Tally String times with reduce](18-tally-string-times-with-reduce)
 1. [Unreal Webcam fun](19-unreal-webcam-fun)
+1. [Follow Along Links](22-follow-along-links)
 
 ## My own experiments
 
