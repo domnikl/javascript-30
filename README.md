@@ -20,6 +20,7 @@
 1. [Tally String times with reduce](18-tally-string-times-with-reduce)
 1. [Unreal Webcam fun](19-unreal-webcam-fun)
 1. [Follow Along Links](22-follow-along-links)
+1. [Speech Synthesis](23-speech-synthesis)
 
 ## My own experiments
 
