@@ -21,6 +21,7 @@
 1. [Unreal Webcam fun](19-unreal-webcam-fun)
 1. [Follow Along Links](22-follow-along-links)
 1. [Speech Synthesis](23-speech-synthesis)
+1. [Sticky Nav](24-sticky-nav)
 
 ## My own experiments
 
