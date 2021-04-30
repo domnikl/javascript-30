@@ -22,6 +22,7 @@
 1. [Follow Along Links](22-follow-along-links)
 1. [Speech Synthesis](23-speech-synthesis)
 1. [Sticky Nav](24-sticky-nav)
+1. [Event Capture, Propagation, Bubbling and Once](25-event-capture-propagation-bubbling-and-once)
 
 ## My own experiments
 
