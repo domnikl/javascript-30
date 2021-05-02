@@ -24,6 +24,7 @@
 1. [Sticky Nav](24-sticky-nav)
 1. [Event Capture, Propagation, Bubbling and Once](25-event-capture-propagation-bubbling-and-once)
 1. [Stripe Follow Along Nav](26-stripe-follow-along-nav)
+1. [Click and Drag](27-click-and-drag)
 
 ## My own experiments
 
