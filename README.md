@@ -25,6 +25,7 @@
 1. [Event Capture, Propagation, Bubbling and Once](25-event-capture-propagation-bubbling-and-once)
 1. [Stripe Follow Along Nav](26-stripe-follow-along-nav)
 1. [Click and Drag](27-click-and-drag)
+1. [Video Speed Controller UI](28-video-speed-controller-ui)
 
 ## My own experiments
 
