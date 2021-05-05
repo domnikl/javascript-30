@@ -27,6 +27,7 @@
 1. [Click and Drag](27-click-and-drag)
 1. [Video Speed Controller UI](28-video-speed-controller-ui)
 1. [Countdown Clock](29-countdown-clock)
+1. [Whack-A-Mole](30-whack-a-mole)
 
 ## My own experiments
 
